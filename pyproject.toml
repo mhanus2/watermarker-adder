@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "watermark-adder"
+version = "0.1.0"
+description = ""
+authors = ["mhanus2 <mhmartinhanus@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "^10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
